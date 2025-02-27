@@ -3,7 +3,7 @@
 'use client'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React, { useEffect, useState } from 'react';
-import Navbar from './navbar';
+import Navbar from './Navbar';
 
 const Documents = () => {
     const [documents, setDocuments] = useState([]);

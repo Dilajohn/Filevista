@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import React, { useState } from 'react';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import Navbar from '../components/navbar';
+import Navbar from '../components/Navbar';
 
 const AddDocument = () => {
     const [documentName, setDocumentName] = useState('');
