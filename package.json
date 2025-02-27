@@ -1,0 +1,12 @@
+{
+  "name": "filevista",
+  "version": "1.0.0",
+  "description": "FileVista is a web-based Document Management System developed using Next.js. It provides an intuitive interface for users to efficiently manage their documents by offering features such as uploading, organizing, and retrieving documents.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
