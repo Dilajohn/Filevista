@@ -1,10 +1,10 @@
 // AddDocument.js
 
-import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from '@/app/components/Navbar';
+import React, { useState } from 'react';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Navbar from '../components/navbar';
 
 const AddDocument = () => {
     const [documentName, setDocumentName] = useState('');
@@ -37,11 +37,9 @@ const AddDocument = () => {
         }
 
         const currentDate = new Date().toLocaleDateString();
-        const existingDocuments = JSON.parse(
-            localStorage.getItem('documents')) || [];
+        const existingDocuments = JSON.parse(localStorage.getItem('documents')) || [];
         const newDocument = {
             id: existingDocuments.length + 1,
-            // Use the length of existingDocuments array as the ID
             name: documentName,
             description: description,
             image: image,
@@ -87,8 +85,7 @@ const AddDocument = () => {
                     id="image"
                     onChange={handleImageChange}
                 />
-                <button className="btn btn-primary mt-3"
-                    onClick={handleAddDocument}>
+                <button className="btn btn-primary mt-3" onClick={handleAddDocument}>
                     Add Document
                 </button>
             </div>

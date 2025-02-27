@@ -3,7 +3,7 @@
 import React from 'react'
 import Documents from './components/Documents'
 
-const page = () => {
+const Page = () => {
     return (
         <div>
             <Documents />
@@ -11,4 +11,4 @@ const page = () => {
     )
 }
 
-export default page;
+export default Page;
