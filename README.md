@@ -12,7 +12,7 @@ FileVista is a web-based Document Management System developed using Next.js. It 
 ## Technologies Used
 - **Frontend:** Next.js (React Framework)
 - **Storage:** Local Storage
-- **Styling:** Tailwind CSS (if applicable)
+- **Styling:** Tailwind CSS (if applicable),Bootstrap
 
 ## Installation
 To set up and run FileVista locally, follow these steps:
